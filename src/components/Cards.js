@@ -1,9 +1,8 @@
-import React from "react";
-import { Card } from "react-bootstrap";
+import React, { useEffect } from "react";
 
 const Cards = ({ imgSrc, prodName, prcBef, prcAft }) => {
   return (
-    <div className="card">
+    <div className="card" id="card">
       <img src={imgSrc} alt="product" />
 
       <div className="card-info">

@@ -3,7 +3,7 @@ import Cards from "./Cards";
 
 const FlashDeal = () => {
   return (
-    <div>
+    <div id="flash-deal">
       <div className="coupons">
         <img
           id="coupon1"
@@ -16,20 +16,23 @@ const FlashDeal = () => {
           alt="coupon 2"
         />
       </div>
-      <h3 id="flash-deal-title">限時秒殺 Crazy Flash Deal</h3>
+      <h3 id="flash-deal-title" className="heading-title">
+        限時秒殺 Crazy Flash Deal
+      </h3>
       <div className="timer">Timer</div>
       <div className="card-flex">
         <Cards
           imgSrc="https://img.cdn.91app.hk/webapi/imagesV3/Cropped/SalePage/8726/0/637468327098900000?v=1"
-          prodName="Kiehl's Ultra Facial Oil-Free Gel Cream"
-          prcBef="300.00"
-          prcAft="178.00"
+          prodName="【Online Exclusive】FRESH Rose Deep Hydration Ritual Set 5piece"
+          prcBef="1,065.00"
+          prcAft="639.00"
         />
+        {/* Havent update name and price below */}
         <Cards
           imgSrc="https://img.cdn.91app.hk/webapi/imagesV3/Cropped/SalePage/6954/0/637469263718000000?v=1"
-          prodName="Shiseido WetForce Perfect UV Protector SPF50+ / PA++++ 50ml"
-          prcBef="340.00"
-          prcAft="228.00"
+          prodName="【Online Exclusive】Sisley Black Rose Skin Infusion Cream 50ml"
+          prcBef="1,300.00"
+          prcAft="910.00"
         />
         <Cards
           imgSrc="https://img.cdn.91app.hk/webapi/imagesV3/Cropped/SalePage/8699/0/637468327445000000?v=1"
