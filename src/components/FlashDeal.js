@@ -24,15 +24,14 @@ const FlashDeal = () => {
         <Cards
           imgSrc="https://img.cdn.91app.hk/webapi/imagesV3/Cropped/SalePage/8726/0/637468327098900000?v=1"
           prodName="【Online Exclusive】FRESH Rose Deep Hydration Ritual Set 5piece"
-          prcBef="1,065.00"
-          prcAft="639.00"
+          prcBef="300.00"
+          prcAft="178.00"
         />
-        {/* Havent update name and price below */}
         <Cards
           imgSrc="https://img.cdn.91app.hk/webapi/imagesV3/Cropped/SalePage/6954/0/637469263718000000?v=1"
           prodName="【Online Exclusive】Sisley Black Rose Skin Infusion Cream 50ml"
-          prcBef="1,300.00"
-          prcAft="910.00"
+          prcBef="340.00"
+          prcAft="228.00"
         />
         <Cards
           imgSrc="https://img.cdn.91app.hk/webapi/imagesV3/Cropped/SalePage/8699/0/637468327445000000?v=1"

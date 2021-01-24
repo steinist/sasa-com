@@ -5,6 +5,8 @@ import Banner from "./components/Banner";
 import FlashDeal from "./components/FlashDeal";
 import Coupons from "./components/Coupons";
 import NewArrival from "./components/NewArrival";
+import MoreCategory from "./components/MoreCategory";
+import Youtube from "./components/Youtube";
 
 const App = () => {
   return (
@@ -14,6 +16,8 @@ const App = () => {
       <FlashDeal />
       <Coupons />
       <NewArrival />
+      <MoreCategory />
+      <Youtube />
     </>
   );
 };

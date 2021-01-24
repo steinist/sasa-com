@@ -51,20 +51,23 @@
 }
 
 .card {
-  width: 289px;
-  height: 385px;
+  width: calc((100% - 24px) / 4);
+  height: auto;
   border-color: transparent;
-  margin: 0 5px;
+  margin-right: 8px;
+  margin-bottom: 5px;
+  /* margin: 0 5px; */
 }
 
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transform: scale(1.025);
+  transition: all 0.1s ease-in;
 }
 
 .card img {
-  width: 289px;
-  height: 289px;
+  width: 100%;
+  height: auto;
 }
 
 .card-info {
@@ -95,11 +98,13 @@
   font-size: 14px;
   line-height: 1.2;
   margin: 0;
+  padding-bottom: 15px;
 }
 
 .card-flex {
   display: flex;
-  justify-content: center;
+  width: 1180px;
+  margin: 0 auto;
 }
 
 #coupon-carousel {
