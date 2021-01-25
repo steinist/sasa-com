@@ -5,9 +5,135 @@
   outline: 0;
 }
 
-.navbar {
-  height: 130px;
+body {
+  font-family: "PingFang-SC", "Lucida Grande", "Helvetica", "Arial",
+    "微軟正黑體修正", "微軟正黑體", sans-serif;
+  line-height: 1;
 }
+
+/* Header */
+.header {
+}
+
+.top-header {
+  background-color: #fcdee9;
+  color: #ed0080;
+  font-size: 13px;
+  line-height: 30px;
+  text-align: center;
+  margin: 0;
+}
+
+.main-header {
+  height: 100px;
+  /* background-color: lightgray; */
+}
+
+.main-header-wrapper {
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.main-header-logo {
+  box-sizing: border-box;
+  height: 100px;
+  padding: 20px 0 15px 0;
+  /*below is logo container*/
+  /* display: flex;
+  text-align: center;
+  align-items: center; */
+}
+
+.main-header-logo-img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.main-header-nav {
+  flex: 5;
+  box-sizing: border-box;
+  height: 100px;
+  padding-left: 2%;
+  flex-flow: column;
+}
+
+.nav-menu-sub {
+  line-height: 50px;
+  display: flex;
+  height: 50px;
+  justify-content: flex-end;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.nav-sub-li {
+  display: inline-block;
+  padding: 0 8px;
+  text-align: left;
+}
+
+.shopping-cart-badge {
+  color: #ffffff;
+  background-color: #ed008c;
+  font-size: 12px;
+  line-height: 18px;
+  display: inline-block;
+  box-sizing: border-box;
+  min-width: 25px;
+  padding: 0 6px;
+  text-align: center;
+  border-radius: 13px;
+}
+
+.named-icon {
+  margin: 2px 4px 0px 0px;
+}
+
+.nav-menu-word {
+  color: rgb(68, 68, 68);
+  min-width: 28px;
+  font-size: 12px;
+  display: inline-flex;
+  margin-right: 3px;
+}
+
+.nav-menu-main {
+  font-size: 14px;
+  line-height: 50px;
+  display: flex;
+  height: 50px;
+}
+
+.nav-menu-ul {
+  flex: 1;
+}
+
+.nav-menu-li {
+  float: left;
+  padding: 0 12px;
+}
+
+.nav-menu-title {
+  color: #444;
+  font-size: 14px;
+  font-weight: normal;
+  display: inline-block;
+}
+
+h4 {
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+/*  */
 
 #banner {
   margin-top: 130px;
@@ -110,4 +236,36 @@
 #coupon-carousel {
   margin: 0 auto;
   width: 1180px;
+}
+
+.youtube-col {
+  display: flex;
+  width: 1180px;
+  margin: 0 auto;
+}
+
+.youtube-left {
+  overflow: hidden;
+  width: 815px;
+  margin-right: 15px;
+}
+.player-wrapper {
+  position: relative;
+  padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */
+}
+
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.youtube-right {
+  width: 350px;
+  background-color: red;
+}
+
+.youtube-right-video {
+  /* position: absolute; */
+  /* padding-bottom: 56.25%; */
 }

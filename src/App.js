@@ -7,6 +7,7 @@ import Coupons from "./components/Coupons";
 import NewArrival from "./components/NewArrival";
 import MoreCategory from "./components/MoreCategory";
 import Youtube from "./components/Youtube";
+import FeaturedBrand from "./components/FeaturedBrand";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <NewArrival />
       <MoreCategory />
       <Youtube />
+      <FeaturedBrand />
     </>
   );
 };
