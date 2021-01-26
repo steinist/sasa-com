@@ -6,6 +6,7 @@ import {
   faGlobeAmericas,
   faArrowCircleDown,
   faChevronDown,
+  faSearch,
 } from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
@@ -96,6 +97,21 @@ const Header = () => {
                   <h4 className="nav-menu-title">New Arrival</h4>
                 </li>
               </ul>
+
+              <span className="nav-search-box">
+                <form className="search-form">
+                  <div className="search-wrapper">
+                    <input
+                      type="text"
+                      className="search-input"
+                      placeholder="Search"
+                    />
+                    <a href="#" className="search-btn">
+                      <FontAwesomeIcon icon={faSearch} color="#666" />
+                    </a>
+                  </div>
+                </form>
+              </span>
             </div>
           </nav>
         </div>

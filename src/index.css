@@ -12,7 +12,12 @@ body {
 }
 
 /* Header */
-.header {
+#header {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
 }
 
 .top-header {
@@ -26,7 +31,7 @@ body {
 
 .main-header {
   height: 100px;
-  /* background-color: lightgray; */
+  background-color: white;
 }
 
 .main-header-wrapper {
@@ -41,10 +46,6 @@ body {
   box-sizing: border-box;
   height: 100px;
   padding: 20px 0 15px 0;
-  /*below is logo container*/
-  /* display: flex;
-  text-align: center;
-  align-items: center; */
 }
 
 .main-header-logo-img {
@@ -131,6 +132,24 @@ h4 {
   margin-block-end: 1.33em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
+}
+
+.search-input {
+  box-sizing: border-box;
+  width: 214px;
+  height: 25px;
+  font-size: 0.8em;
+  line-height: 20px;
+  padding: 0 35px 0 15px;
+  border-radius: 20px;
+  outline: none;
+  background: #e4e2e2;
+}
+
+.search-btn {
+  position: absolute;
+  top: 62%;
+  right: 4.5%;
 }
 
 /*  */
