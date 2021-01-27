@@ -250,11 +250,6 @@ h4 {
   content: "____";
 }
 
-.timer {
-  text-align: center;
-  height: 69px;
-}
-
 .card {
   width: calc((100% - 24px) / 4);
   height: auto;
@@ -376,4 +371,34 @@ h4 {
   width: calc(100% / 4);
   /* margin-right: 5px; */
   margin-bottom: 0px;
+}
+
+/* Timer */
+.countdown-wrapper {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.time-section {
+  color: #ed0080;
+  background-color: #f2f2f2;
+  width: 55.15px;
+  height: 69px;
+  position: relative;
+  margin: 0 3px;
+  padding: 5px 10px 10px;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.time {
+  padding-top: 10px;
+  font-size: 28px;
+}
+
+.time-text {
+  font-size: 11px;
+  padding: 0 3px;
 }

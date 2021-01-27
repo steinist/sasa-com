@@ -1,5 +1,6 @@
 import React from "react";
 import Cards from "./Cards";
+import Timer from "./Timer";
 
 const FlashDeal = () => {
   return (
@@ -23,8 +24,10 @@ const FlashDeal = () => {
       {/* <h3 id="flash-deal-title" className="heading-title">
         限時秒殺 Crazy Flash Deal
       </h3> */}
-      <div className="timer vertical-spacing">Timer</div>
-      <div className="card-flex vertical-spacing">
+      <div className="timer">
+        <Timer />
+      </div>
+      <div className="card-flex">
         <Cards
           imgSrc="https://img.cdn.91app.hk/webapi/imagesV3/Cropped/SalePage/8726/0/637468327098900000?v=1"
           prodName="【Online Exclusive】FRESH Rose Deep Hydration Ritual Set 5piece"
