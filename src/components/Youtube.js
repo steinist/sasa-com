@@ -25,12 +25,14 @@ const Youtube = () => {
             />
           </div>
         </div>
-        <div className="">
-          <p>韓國尊貴護膚品牌 – 御容鑑 , 正式登陸莎莎！</p>
+        <div className="youtube-right-text">
+          <h5>韓國尊貴護膚品牌 – 御容鑑 , 正式登陸莎莎！</h5>
           <p>
             御容鑑嚴選珍貴韓藥，配合不同草本萃取，調配嶄新抗衰老護膚配方，利用先進的專利生產技術，調配出滋陰養潤的滋養煥顏系列，為肌膚提供極致年輕能量。
           </p>
-          <a href="#">View More</a>
+          <a href="#" className="youtube-right-link">
+            View More
+          </a>
         </div>
       </div>
     </div>

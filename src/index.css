@@ -341,12 +341,35 @@ h4 {
 
 .youtube-right {
   width: 350px;
-  background-color: red;
+  background-color: #fff;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.08);
 }
 
-.youtube-right-video {
-  /* position: absolute; */
-  /* padding-bottom: 56.25%; */
+.youtube-right-text {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.youtube-right-text h5 {
+  color: #4b4b4b;
+  font-size: 16px;
+  line-height: 20px;
+  overflow: hidden;
+  max-height: 60px;
+}
+
+.youtube-right-text p {
+  color: #4b4b4b;
+  font-size: 13px;
+  line-height: 16px;
+  overflow: hidden;
+  max-height: 48px;
+  margin-bottom: 5px;
+}
+
+.youtube-right-link {
+  font-size: 13px;
+  color: #428bca;
 }
 
 .featured-brand-img {
