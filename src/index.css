@@ -13,7 +13,7 @@ body {
 
 /* Header */
 #header {
-  overflow: hidden;
+  /* overflow: hidden; */
   position: fixed;
   top: 0;
   width: 100%;
@@ -152,7 +152,51 @@ h4 {
   right: 4.5%;
 }
 
-/*  */
+.nav-link {
+  display: inline-block;
+  color: #444;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding: 0;
+  line-height: 1.2;
+}
+
+.dropdown-menu {
+  position: block !important;
+  z-index: inherit;
+  margin-top: 15px;
+  /* padding-top: 15px;
+  padding-bottom: 15px; */
+  width: 603px;
+  height: 450px;
+}
+
+.dropdown-item {
+  width: 300px;
+  color: #666;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 5px 12px;
+  box-sizing: border-box;
+}
+
+.drop-submenu {
+  display: float;
+  padding-top: 10px;
+}
+
+.drop-left {
+  float: left;
+  border-right: dashed 1px #d8d8d8;
+}
+
+.drop-right {
+  float: right;
+}
+
+/* Banner */
 
 #banner {
   margin-top: 130px;
@@ -169,12 +213,21 @@ h4 {
   margin: 0 8px;
 }
 
+.vertical-spacing {
+  padding-bottom: 15px;
+}
+
+.medium-container {
+  width: 1180px;
+  margin: 0 auto;
+}
+
 .coupons {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  padding-top: 15px;
-  padding-bottom: 10px;
+  /* padding-top: 15px;
+  padding-bottom: 10px; */
 }
 
 .heading-title {
@@ -188,6 +241,13 @@ h4 {
   position: relative;
   min-height: 20px;
   margin: 16px 0 32px;
+}
+
+.heading-title::after {
+  line-height: 10px;
+  display: block;
+  height: 10px;
+  content: "____";
 }
 
 .timer {
@@ -287,4 +347,10 @@ h4 {
 .youtube-right-video {
   /* position: absolute; */
   /* padding-bottom: 56.25%; */
+}
+
+.featured-brand-img {
+  width: calc(100% / 4);
+  /* margin-right: 5px; */
+  margin-bottom: 0px;
 }

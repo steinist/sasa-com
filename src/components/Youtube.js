@@ -3,7 +3,7 @@ import ReactPlayer from "react-player";
 
 const Youtube = () => {
   return (
-    <div className="youtube-col">
+    <div className="youtube-col vertical-spacing">
       <div className="youtube-left">
         <div className="player-wrapper">
           <ReactPlayer

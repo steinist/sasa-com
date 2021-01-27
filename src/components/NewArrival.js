@@ -64,11 +64,14 @@ const NewArrival = () => {
         />
       </a>
 
-      <img
-        src="https://cms.cdn.91app.hk/images/original/17/086148bb-2429-4ffd-bbec-6f73bfd281d8-1611199746-iaxun51x7k_d_1200x206_800x138_400x69.jpg"
-        alt=""
-      />
-      <div className="card-flex">
+      <div className="vertical-spacing">
+        <img
+          src="https://cms.cdn.91app.hk/images/original/17/086148bb-2429-4ffd-bbec-6f73bfd281d8-1611199746-iaxun51x7k_d_1200x206_800x138_400x69.jpg"
+          alt=""
+        />
+      </div>
+
+      <div className="card-flex vertical-spacing">
         <Cards
           imgSrc="https://img.cdn.91app.hk/webapi/imagesV3/Cropped/SalePage/8726/0/637468327098900000?v=1"
           prodName="【Online Exclusive】FRESH Rose Deep Hydration Ritual Set 5piece"
@@ -95,11 +98,13 @@ const NewArrival = () => {
         />
       </div>
 
-      <img
-        src="https://cms.cdn.91app.hk/images/original/17/086148bb-2429-4ffd-bbec-6f73bfd281d8-1610954794-qqex3gvryo_d_1200x206_800x138_400x69.jpg"
-        alt=""
-      />
-      <div className="card-flex">
+      <div className="vertical-spacing">
+        <img
+          src="https://cms.cdn.91app.hk/images/original/17/086148bb-2429-4ffd-bbec-6f73bfd281d8-1610954794-qqex3gvryo_d_1200x206_800x138_400x69.jpg"
+          alt=""
+        />
+      </div>
+      <div className="card-flex vertical-spacing">
         <Cards
           imgSrc="https://img.cdn.91app.hk/webapi/imagesV3/Cropped/SalePage/8726/0/637468327098900000?v=1"
           prodName="【Online Exclusive】FRESH Rose Deep Hydration Ritual Set 5piece"

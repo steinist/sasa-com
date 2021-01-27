@@ -4,7 +4,7 @@ import Carousel from "react-bootstrap/Carousel";
 const Coupons = () => {
   return (
     <>
-      <div className="coupons">
+      <div className="coupons vertical-spacing">
         <img
           id="coupon3"
           src="https://cms.cdn.91app.hk/images/original/17/086148bb-2429-4ffd-bbec-6f73bfd281d8-1610953533-wx3cqwpay7_d_400x173.jpg"
@@ -16,7 +16,7 @@ const Coupons = () => {
           alt="coupon 4"
         />
       </div>
-      <div id="coupon-carousel">
+      <div id="coupon-carousel" className="vertical-spacing">
         <Carousel>
           <Carousel.Item interval={1000}>
             <img

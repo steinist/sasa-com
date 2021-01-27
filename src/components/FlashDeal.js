@@ -4,23 +4,27 @@ import Cards from "./Cards";
 const FlashDeal = () => {
   return (
     <div id="flash-deal">
-      <div className="coupons">
-        <img
-          id="coupon1"
-          src="https://cms.cdn.91app.hk/images/original/17/086148bb-2429-4ffd-bbec-6f73bfd281d8-1611147778-h8mawy503j_d_400x93.jpg"
-          alt="coupon 1"
-        />
-        <img
-          id="coupon2"
-          src="https://cms.cdn.91app.hk/images/original/17/086148bb-2429-4ffd-bbec-6f73bfd281d8-1611113557-iqqv637q18_d_400x93.jpg"
-          alt="coupon 2"
-        />
+      <div className="coupons vertical-spacing">
+        <a href="#">
+          <img
+            id="coupon1"
+            src="https://cms.cdn.91app.hk/images/original/17/086148bb-2429-4ffd-bbec-6f73bfd281d8-1611147778-h8mawy503j_d_400x93.jpg"
+            alt="coupon 1"
+          />
+        </a>
+        <a href="#">
+          <img
+            id="coupon2"
+            src="https://cms.cdn.91app.hk/images/original/17/086148bb-2429-4ffd-bbec-6f73bfd281d8-1611113557-iqqv637q18_d_400x93.jpg"
+            alt="coupon 2"
+          />
+        </a>
       </div>
-      <h3 id="flash-deal-title" className="heading-title">
+      {/* <h3 id="flash-deal-title" className="heading-title">
         限時秒殺 Crazy Flash Deal
-      </h3>
-      <div className="timer">Timer</div>
-      <div className="card-flex">
+      </h3> */}
+      <div className="timer vertical-spacing">Timer</div>
+      <div className="card-flex vertical-spacing">
         <Cards
           imgSrc="https://img.cdn.91app.hk/webapi/imagesV3/Cropped/SalePage/8726/0/637468327098900000?v=1"
           prodName="【Online Exclusive】FRESH Rose Deep Hydration Ritual Set 5piece"
