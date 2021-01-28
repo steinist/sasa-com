@@ -29,28 +29,28 @@ const FlashDeal = () => {
       </div>
       <div className="card-flex">
         <Cards
-          imgSrc="https://img.cdn.91app.hk/webapi/imagesV3/Cropped/SalePage/8726/0/637468327098900000?v=1"
-          prodName="【Online Exclusive】FRESH Rose Deep Hydration Ritual Set 5piece"
-          prcBef="300.00"
-          prcAft="178.00"
+          imgSrc="https://img.cdn.91app.hk/webapi/imagesV3/Original/SalePage/10272/0/637471749403770000?v=1"
+          prodName="Fancl 膠原蛋白美肌飲料 10枝裝"
+          prcBef="208.00"
+          prcAft="189.00"
         />
         <Cards
-          imgSrc="https://img.cdn.91app.hk/webapi/imagesV3/Cropped/SalePage/6954/0/637469263718000000?v=1"
-          prodName="【Online Exclusive】Sisley Black Rose Skin Infusion Cream 50ml"
-          prcBef="340.00"
-          prcAft="228.00"
+          imgSrc="https://img.cdn.91app.hk/webapi/imagesV3/Original/SalePage/8712/0/637471715761430000?v=1"
+          prodName="Estee Lauder Synchronized Recovery Complex II"
+          prcBef="830.00"
+          prcAft="408.00"
         />
         <Cards
-          imgSrc="https://img.cdn.91app.hk/webapi/imagesV3/Cropped/SalePage/8699/0/637468327445000000?v=1"
-          prodName="Jurlique Rose Hand Cream"
-          prcBef="200.00"
-          prcAft="118.00"
+          imgSrc="https://img.cdn.91app.hk/webapi/imagesV3/Original/SalePage/8092/0/637471715752970000?v=1"
+          prodName="Sulwhasoo Overnight Vitalizing Mask 120ml"
+          prcBef="380.00"
+          prcAft="149.00"
         />
         <Cards
           imgSrc="https://img.cdn.91app.hk/webapi/imagesV3/Cropped/SalePage/10020/0/637468251973330000?v=1"
-          prodName="Skin Ceuticals Hydrating B5 30ml"
-          prcBef="700.00"
-          prcAft="458.00"
+          prodName="Sisley Ecological Compound 125ml"
+          prcBef="1580.00"
+          prcAft="1058.00"
         />
       </div>
     </div>
