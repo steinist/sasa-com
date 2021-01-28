@@ -12,14 +12,22 @@ const Timer = () => {
   });
 
   useEffect(() => {
-    setInterval(() => setNewTime(), 1000);
+    const tick = setInterval(() => setNewTime(), 1000);
+    return () => clearInterval(tick);
   }, []);
 
   const setNewTime = () => {
     if (countdownDate) {
       const currentTime = new Date().getTime();
 
-      const distanceToDate = countdownDate - currentTime;
+      let distanceToDate = countdownDate - currentTime;
+
+      //   if (distanceToDate <= 0) {
+      //     console.log(countdownDate);
+      //     setCountdownDate(countdownDate + 5 * 24 * 60 * 60 * 1000);
+      //     distanceToDate = countdownDate - currentTime;
+      //     console.log("hello");
+      //   }
 
       let days = Math.floor(distanceToDate / (1000 * 60 * 60 * 24));
       let hours = Math.floor(
